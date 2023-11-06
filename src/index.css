@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.enter-key {
+  @apply flex justify-center items-center bg-gray-500 w-16 h-12 p-1 text-base text-white font-bold text-center cursor-pointer;
+}
+
+.delete-key {
+  @apply flex justify-center items-center bg-gray-500 w-16 h-12 p-1 text-xs text-white font-bold text-center cursor-pointer;
+}
+
+.letter-key {
+  @apply flex justify-center items-center bg-gray-500 w-12 h-12 p-1 text-lg text-white font-bold text-center cursor-pointer;
+}
+
+.letter-box {
+  @apply flex justify-center items-center w-12 h-12 p-1 text-lg text-white font-bold text-center border-gray-500 border-2;
+}
